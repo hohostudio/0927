@@ -4,6 +4,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <HBox>
+                <Text text="git change" />
                 <Input id="soId" value="{view>/salesOrderNum}"/>
                 <Input id="soMemo" value="{view>/salesOrderMemo}"/>
                 <Button text="저장" press="onCreate"/>
