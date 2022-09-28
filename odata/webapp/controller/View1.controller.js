@@ -11,7 +11,7 @@ sap.ui.define([
 
         return Controller.extend("sap.sync.odata.controller.View1", {
             onInit: function () {
-                var oData = {
+                var oData = { 
                     salesOrderNum : null,
                     salesOrderMemo : null
                 };
